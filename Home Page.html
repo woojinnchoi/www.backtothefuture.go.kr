@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>백 투 더 퓨처</title>
+  <style>
+    body {
+      margin-bottom: 100px;   /* 하단 여백 */
+      padding-left: 20px;   /* 반응형 여백 */
+      padding-right: 20px;    /* 반응형 여백 */
+      font-family: sans-serif;
+      color: black;
+    }
+
+    div {
+      max-width: 1640px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 23px;
+      margin-bottom: 100px;
+    }
+
+    h1 {
+      font-size: clamp(24px, 4vw, 34pt);    /* 반응형 텍스트 크기 */
+      font-weight: bold;    /* 텍스트 굵기 */
+      letter-spacing: -0.02em;    /* 반응형 자간 */
+      margin-bottom: 0;    /* 하단 여백 제거 */
+      margin-top: 0;     /* 상단 여백 제거 */
+    }
+
+    img {
+      position: absolute;
+      transition: left 0.4s;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    #back {
+      top: 198px;
+      left: 561.5px;
+      width: 677px;
+      height: 165px;
+    }
+
+    #back-text {
+      position: absolute;
+      top: 319px;
+      left: 395px;
+      opacity: 0;
+      font-size: 25pt;
+      font-weight: bold;
+      letter-spacing: -1px;
+      transition: opacity 0.4s;
+    }
+    #back-box:hover #back-text {
+      opacity: 1;
+    }
+    #back-box:hover #back {
+      left: 692px;
+    }
+    #back-text:hover {
+      color: #00A1E9;
+    }
+
+
+    #to {
+      top: 373px;
+      left: 749.5px;
+      width: 301px;
+      height: 165px;
+    }
+
+    #to-text {
+      position: absolute;
+      top: 494px;
+      left: 1106px;
+      opacity: 0;
+      font-size: 25pt;
+      font-weight: bold;
+      letter-spacing: -1px;
+      transition: opacity 0.4s;
+    }
+
+    #to-box:hover #to-text {
+      opacity: 1;
+    }
+    #to-box:hover #to {
+      left: 789px;
+    }
+    #to-text:hover {
+      color: #00A1E9;
+    }
+
+
+    #the {
+      top: 548px;
+      left: 698.5px;
+      width: 403px;
+      height: 157px;
+    }
+
+    #the-text1 {
+      position: absolute;
+      top: 661px;
+      left: 245px;
+      opacity: 0;
+      font-size: 25pt;
+      font-weight: bold;
+      letter-spacing: -1px;
+      transition: opacity 0.4s;
+    }
+
+    #the-text2 {
+      position: absolute;
+      top: 661px;
+      left: 620px;
+      opacity: 0;
+      font-size: 25pt;
+      font-weight: bold;
+      letter-spacing: -1px;
+      transition: opacity 0.4s;
+    }
+
+    #the-box:hover #the-text1 {
+      opacity: 1;
+    }
+
+     #the-box:hover #the-text2 {
+      opacity: 1;
+    }
+
+    #the-box:hover #the {
+      left: 830px;
+    }
+
+    #the-text1:hover {
+      color: #00A1E9;
+    }
+
+    #the-text2:hover {
+      color: #00A1E9;
+    }
+
+
+    #future {
+      top: 721px;
+      left: 493.5px;
+      width: 813px;
+      height: 161px;
+    }
+
+    #future-text1 {
+      position: absolute;
+      top: 838px;
+      left: 1036px;
+      opacity: 0;
+      font-size: 25pt;
+      font-weight: bold;
+      letter-spacing: -1px;
+      transition: opacity 0.4s;
+    }
+
+    #future-text2 {
+      position: absolute;
+      top: 838px;
+      left: 1400px;
+      opacity: 0;
+      font-size: 25pt;
+      font-weight: bold;
+      letter-spacing: -1px;
+      transition: opacity 0.4s;
+    }
+
+    #future-box:hover #future-text1 {
+      opacity: 1;
+    }
+
+     #future-box:hover #future-text2 {
+      opacity: 1;
+    }
+
+    #future-box:hover #future {
+      left: 208px;
+    }
+
+    #future-text1:hover {
+      color: #00A1E9;
+    }
+
+    #future-text2:hover {
+      color: #00A1E9;
+    }
+
+    #article 
+    { max-width: 1440px;    /* 본문 여백 설정 */
+      margin-left: auto;     /* 좌우 여백 */
+      margin-right: auto;    /* 좌우 여백 */
+      min-width: 600px;
+      padding-left: 20px;    /* 반응형 여백 */
+      padding-right: 20px;    /* 반응형 여백 */
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <h1 style="float: left;">백 투 더 퓨처:</h1>
+    <h1 style="float: right;">한국 현대미술의 동시대성 탐험기</h1>
+    <div style="clear: both;"></div>
+  </div>
+
+  <section id="article">
+<a href="https://output.jsbin.com/kikaveg" style="color: inherit; display: inline-block;">
+  <div id="back-box">
+  <img id="back" src="https://i.imgur.com/qlH7gXg.png" alt="Back">
+  <span id="back-text">MMCA 소장품 특별전</span>
+</div>
+</a>
+
+<a href="https://output.jsbin.com/yimotuj" style="color: inherit; display: inline-block;">
+  <div id="to-box">
+  <img id="to" src="https://i.imgur.com/XcDkp4e.png" alt="To">
+  <span id="to-text">백 투 더 퓨처</span>
+</div>
+</a>
+
+
+<div id="the-box">
+  
+  <img id="the" src="https://i.imgur.com/OWBPxeV.png" alt="The">
+    <a href="https://yangseoyeong.github.io/tleiofjdijfiowejiof/" style="color: inherit; display: inline-block;">
+  <span id="the-text1">시대 변환과 미술 지형 변동</span>
+    </a>
+
+  <a href="https://output.jsbin.com/pabovem" style="color: inherit; display: inline-block;">
+  <span id="the-text2">불일치의 활성화</span>
+  </a>
+
+</div>
+
+
+<div id="future-box">
+  
+  <img id="future" src="https://i.imgur.com/xlX0Y8m.png" alt="Future">
+    
+    <a href="https://jsbin.com/havofuf/1" style="color: inherit; display: inline-block;">
+  <span id="future-text1">이질성과 그 비평적 시공간</span>
+    </a>
+
+    <a href="https://output.jsbin.com/retawin/1" style="color: inherit; display: inline-block;">
+  <span id="future-text2">미래 간섭 혹은 미래 개입</span>
+    </a>
+
+</div>
+  </section>
+</body>
+</html>
